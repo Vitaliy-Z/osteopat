@@ -17,7 +17,7 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./styles/styles.css" />
-    <title>Мій остеопат</title>
+    <title>Твій остеопат</title>
   </head>
   <body>
     <header class="page-header">
@@ -59,25 +59,26 @@
           <div class="hero-text-wrapper">
             <h1 class="hero-title">
               <span class="hero-title-span">Остеопатія</span> та
-              <span class="hero-title-span">Мануальна терапія</span>
+              <span class="hero-title-span">мануальна терапія</span>
 
               для вашого здоров’я
             </h1>
             <p class="hero-text">Поверніть тілу свободу руху!</p>
-            <ul class="btn-wrapper">
-              <li>
-                <button class="hero-btn">Записатись</button>
-              </li>
-              <li>
-                <button class="hero-btn">Дізнатись більше</button>
-              </li>
-            </ul>
           </div>
-          <img
-            src="./images/hero-img.png"
+          <ul class="btn-wrapper">
+            <li>
+              <button class="hero-btn">Записатись</button>
+            </li>
+            <li>
+              <button class="hero-btn">Дізнатись більше</button>
+            </li>
+          </ul>
+
+          <!-- <img
+            src="./images/hero-img.webp"
             alt="Картинка дослідження тіла"
             class="hero-img"
-          />
+          /> -->
         </div>
       </section>
 
@@ -169,6 +170,99 @@
           </ul>
         </div>
       </section>
+
+      <!-- Services -->
+      <section class="services-section">
+        <div class="container">
+          <h2 class="services-title">Послуги</h2>
+          <ul class="services-list">
+            <li class="services-item">
+              <p class="services-item-text">
+                <svg class="service-icon">
+                  <use href="./images/sprite.svg#icon-osteopat"></use></svg
+                >Остеопатія
+              </p>
+            </li>
+            <li class="services-item">
+              <p class="services-item-text">
+                <svg class="service-icon">
+                  <use href="./images/sprite.svg#icon-manual"></use></svg
+                >Мануальна терапія
+              </p>
+            </li>
+            <li class="services-item">
+              <p class="services-item-text">
+                <svg class="service-icon">
+                  <use href="./images/sprite.svg#icon-teyping"></use></svg
+                >Тейпування
+              </p>
+            </li>
+            <li class="services-item">
+              <p class="services-item-text">
+                <svg class="service-icon">
+                  <use href="./images/sprite.svg#icon-kinezo"></use></svg
+                >Кінезотерапія
+              </p>
+            </li>
+            <li class="services-item">
+              <p class="services-item-text">
+                <svg class="service-icon">
+                  <use href="./images/sprite.svg#icon-masaj"></use></svg
+                >Масаж
+              </p>
+            </li>
+            <li class="services-item">
+              <p class="services-item-text">
+                <svg class="service-icon">
+                  <use href="./images/sprite.svg#icon-stoun"></use></svg
+                >Стоун терапія
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Map -->
+      <section class="map-section">
+        <div class="container">
+          <h2 class="map-title">Як знайти?</h2>
+          <iframe
+            class="map-google-link"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2533.3077902927835!2d30.4818115520333!3d50.58423227161802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4d35a1edb68fd%3A0xf705153858cb22f6!2z0YPQuy4g0JHQvtCz0LTQsNC90LAg0KXQvNC10LvRjNC90LjRhtC60L7Qs9C-LCA1LCDQktGL0YjQs9C-0YDQvtC0LCDQmtC40LXQstGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCAwNzMwMQ!5e0!3m2!1sru!2sua!4v1727424568932!5m2!1sru!2sua"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
     </main>
+    <footer class="page-footer">
+      <div class="container">
+        <a href="./index.html" class="logo-link">
+          <img
+            src="./images/logo-rbg.webp"
+            alt="Логотип сайту"
+            class="logo-img"
+          />
+          <span class="logo-text"> Олексій Гутник </span>
+        </a>
+        <address class="footer-address-wrapper">
+          <p class="footer-address-text">
+            м. Вишгород, вул. Богдана Хмельницького 5
+          </p>
+          <a class="footer-address-tel" href="tel:+380966328191"
+            >+38 096 632 81 91</a
+          >
+        </address>
+        <div class="footer-schedule">
+          <p class="footer-schedule-title">Графік роботи:</p>
+          <p class="footer-schedule-text">Понеділок - Пʼятниця</p>
+          <p class="footer-schedule-text">8:00 - 21:00</p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
