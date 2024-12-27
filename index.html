@@ -6,13 +6,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,400;1,700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
@@ -23,100 +23,88 @@
     <header class="page-header">
       <div class="container">
         <nav class="page-nav">
-          <a href="./index.html" class="logo-link">
+          <a class="logo-link" href="#hero-section">
             <img
+              class="logo-img"
               src="./images/logo-rbg.webp"
               alt="Логотип сайту"
-              class="logo-img"
             />
             <span class="logo-text"> Олексій Гутник </span>
           </a>
 
           <ul class="nav-link-list">
             <li class="nav-link-item">
-              <a href="./index.html" class="nav-link current-link">Головна</a>
+              <a href="#about-section" class="nav-link">Опис</a>
             </li>
             <li class="nav-link-item">
-              <a href="#" class="nav-link">Про мене</a>
+              <a href="#benefits-section" class="nav-link">Переваги</a>
             </li>
             <li class="nav-link-item">
-              <a href="#" class="nav-link">Послуги</a>
+              <a href="#services-section" class="nav-link">Послуги</a>
             </li>
             <li class="nav-link-item">
-              <a href="#" class="nav-link">Ціни</a>
-            </li>
-            <li class="nav-link-item">
-              <a href="#" class="nav-link">Контакти</a>
+              <a href="#map-section" class="nav-link">Контакти</a>
             </li>
           </ul>
         </nav>
       </div>
     </header>
     <main class="page-main">
-      <!-- Hero -->
-      <section class="hero-section">
+      <!-- HERO SECTION -->
+      <section class="hero-section" id="hero-section">
         <div class="container">
           <div class="hero-text-wrapper">
             <h1 class="hero-title">
-              <b>Остеопатія</b> та <br />
-              <b>мануальна терапія</b> <br />
-              для вашого здоров’я!
+              Остеопатія та мануальна терапія для вашого здоров'я!
             </h1>
             <p class="hero-text">Поверніть тілу свободу руху!</p>
           </div>
-          <ul class="hero-btn-list">
-            <li class="hero-btn-item">
-              <button class="hero-btn">Записатись</button>
-            </li>
-            <li class="hero-btn-item">
-              <button class="hero-btn" href="#about-section">
-                Дізнатись більше
-              </button>
-            </li>
-          </ul>
+
+          <button class="appointment-btn js-appointment-btn" type="button">
+            Записатись
+          </button>
         </div>
       </section>
 
-      <!-- About -->
+      <!-- ABOUT SECTION -->
       <section class="about-section" id="about-section">
         <div class="container">
-          <div class="img-thumb">
+          <!-- <div class="img-thumb">
             <img
               class="about-img"
               src="./images/about/about-img.webp"
               alt="Картинка масажу"
             />
-          </div>
-          <div class="about-text-wrapper">
-            <h2 class="about-title">Що це?</h2>
-            <p class="about-text">
-              <b>Мануальна терапія</b> та <b>Остеопатія</b> – це безпечні та
-              ефективні методи лікування, які спрямовані на відновлення
-              природного балансу тіла. Остеопатія та мануальна терапія – це
-              сучасні метод лікування, які спрямований на відновлення гармонії
-              та балансу в тілі через м’які мануальні техніки. Остеопати
-              використовують свої руки для діагностики та лікування проблем,
-              пов’язаних з кістково-м’язовою системою, нервами та внутрішніми
-              органами. Завдяки цим підходам вдається не тільки усунути біль,
-              але й відновити природну рухливість і поліпшити загальне
-              самопочуття, зняти м’язову напругу, покращити кровообіг і
-              відновити функції та гармонію організму вцілому.
-            </p>
-            <p class="about-text">
-              Наші процедури абсолютно безпечні та безболісні, а ефект ви
-              відчуєте вже після першого сеансу. Довірте своє здоров'я
-              професіоналам і насолоджуйтесь повноцінним життям без болю!
-              Відчуєте себе більш енергійними, рухливими та позбудетесь багатьох
-              неприємних симптомів без всяких медикаментів!
-            </p>
-          </div>
+          </div> -->
+          <!-- <div class="about-text-wrapper"> -->
+          <h2 class="section-title">Що це?</h2>
+          <p class="section-text">
+            <b>Мануальна терапія</b> та <b>Остеопатія</b> – це безпечні та
+            ефективні методи лікування, які спрямовані на відновлення природного
+            балансу тіла. Остеопатія та мануальна терапія – це сучасні метод
+            лікування, які спрямований на відновлення гармонії та балансу в тілі
+            через м’які мануальні техніки. Остеопати використовують свої руки
+            для діагностики та лікування проблем, пов’язаних з кістково-м’язовою
+            системою, нервами та внутрішніми органами. Завдяки цим підходам
+            вдається не тільки усунути біль, але й відновити природну рухливість
+            і поліпшити загальне самопочуття, зняти м’язову напругу, покращити
+            кровообіг і відновити функції та гармонію організму вцілому.
+          </p>
+          <p class="section-text">
+            Наші процедури абсолютно безпечні та безболісні, а ефект ви відчуєте
+            вже після першого сеансу. Довірте своє здоров'я професіоналам і
+            насолоджуйтесь повноцінним життям без болю! Відчуєте себе більш
+            енергійними, рухливими та позбудетесь багатьох неприємних симптомів
+            без всяких медикаментів!
+          </p>
+          <!-- </div> -->
         </div>
       </section>
 
-      <!-- Benefits -->
-      <section class="benefits-section">
+      <!-- BENEFITS SECTION -->
+      <section class="benefits-section" id="benefits-section">
         <div class="container">
-          <h2 class="benefits-title">
+          <h2 class="section-title">
             Професійний підхід до вашого здоровʼя та гармонії тіла
           </h2>
           <ul class="benefits-list">
@@ -181,10 +169,10 @@
         </div>
       </section>
 
-      <!-- Services -->
-      <section class="services-section">
+      <!-- SERVICES SECTION -->
+      <section class="services-section" id="services-section">
         <div class="container">
-          <h2 class="services-title">Послуги</h2>
+          <h2 class="section-title">Послуги</h2>
           <ul class="services-list">
             <li class="services-item">
               <svg class="service-icon">
@@ -226,17 +214,14 @@
         </div>
       </section>
 
-      <!-- Map -->
-      <section class="map-section">
+      <!-- MAP SECTION -->
+      <section class="map-section" id="map-section">
         <div class="container">
-          <h2 class="map-title">Як знайти?</h2>
+          <h2 class="section-title">Як знайти?</h2>
           <iframe
             class="map-google-link"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2533.3077902927835!2d30.4818115520333!3d50.58423227161802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4d35a1edb68fd%3A0xf705153858cb22f6!2z0YPQuy4g0JHQvtCz0LTQsNC90LAg0KXQvNC10LvRjNC90LjRhtC60L7Qs9C-LCA1LCDQktGL0YjQs9C-0YDQvtC0LCDQmtC40LXQstGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCAwNzMwMQ!5e0!3m2!1sru!2sua!4v1727424568932!5m2!1sru!2sua"
-            width="600"
-            height="450"
-            style="border: 0"
-            allowfullscreen=""
+            allowfullscreen="true"
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
@@ -245,28 +230,93 @@
     </main>
     <footer class="page-footer">
       <div class="container">
-        <a href="./index.html" class="logo-link">
+        <a href="#hero-section" class="logo-link">
           <img
             src="./images/logo-rbg.webp"
             alt="Логотип сайту"
             class="logo-img"
           />
-          <span class="logo-text"> Олексій Гутник </span>
+          <span class="logo-text">Олексій Гутник</span>
         </a>
         <address class="footer-address-wrapper">
-          <p class="footer-address-text">
-            м. Вишгород, вул. Богдана Хмельницького 5
-          </p>
+          <h4 class="footer-title">Контакти:</h4>
           <a class="footer-address-tel" href="tel:+380966328191"
             >+38 096 632 81 91</a
           >
+          <p class="footer-text">м. Вишгород, вул. Богдана Хмельницького 5</p>
         </address>
         <div class="footer-schedule">
-          <p class="footer-schedule-title">Графік роботи:</p>
-          <p class="footer-schedule-text">Понеділок - Пʼятниця</p>
-          <p class="footer-schedule-text">8:00 - 21:00</p>
+          <h4 class="footer-title">Графік роботи:</h4>
+          <p class="footer-text">Понеділок - Пʼятниця</p>
+          <p class="footer-text">8:00 - 21:00</p>
         </div>
       </div>
     </footer>
+
+    <!-- MODAL -->
+    <div class="modal js-modal">
+      <div class="modal-content">
+        <button class="modal-close-btn js-modal-close-btn" type="button">
+          <svg class="modal-close-icon">
+            <use href="./images/sprite.svg#icon-close"></use>
+          </svg>
+        </button>
+        <h2 class="modal-title section-title">Запис на прийом</h2>
+        <form class="modal-form js-modal-form">
+          <div class="modal-input-wrapper">
+            <label class="modal-label section-text" for="name">Ім'я:</label>
+            <input
+              class="modal-input"
+              type="text"
+              id="name"
+              name="name"
+              required
+            />
+          </div>
+          <div class="modal-input-wrapper">
+            <label class="modal-label section-text" for="phone">Телефон:</label>
+            <input
+              class="modal-input"
+              type="tel"
+              id="phone"
+              name="phone"
+              required
+            />
+          </div>
+          <div class="modal-input-wrapper">
+            <label class="modal-label section-text" for="date">Дата:</label>
+            <input
+              class="modal-input"
+              type="date"
+              id="date"
+              name="date"
+              required
+            />
+          </div>
+          <div class="modal-input-wrapper">
+            <label class="modal-label section-text" for="time">Час:</label>
+            <input
+              class="modal-input"
+              type="time"
+              id="time"
+              name="time"
+              required
+            />
+          </div>
+          <p class="modal-text section-text">
+            - Зверніть увагу, що це форма лише попереднього запису. Після
+            відправки ми з Вами звʼяжемось для узгодження точного запису на
+            візит.
+          </p>
+          <button
+            class="appointment-btn modal-submit-btn js-modal-submit-btn"
+            type="submit"
+          >
+            Записатись
+          </button>
+        </form>
+      </div>
+    </div>
+    <script type="module" src="./js/index.js"></script>
   </body>
 </html>

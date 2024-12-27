@@ -1,0 +1,52 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 1.45;
+  letter-spacing: 0.02em;
+  color: #404040;
+}
+.page-main {
+  background-image: linear-gradient(
+      rgba(230, 255, 240, 0.9),
+      rgb(220, 255, 230, 0.6)
+    ),
+    url("../images/about/about-img.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+section {
+  padding: 20px 0;
+}
+section:last-child {
+  padding-bottom: 60px;
+}
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+.section-title {
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 2em;
+  color: #212121;
+}
+.section-text {
+  text-align: justify;
+}
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}

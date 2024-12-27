@@ -1,0 +1,7 @@
+:root {
+  --card-bg-color: rgba(255, 255, 255, 0.7);
+  --card-shadow: rgba(0, 0, 0, 0.3) 0px 5px 15px;
+
+  --timing-duraction: 300ms;
+  --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}

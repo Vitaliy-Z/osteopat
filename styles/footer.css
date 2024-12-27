@@ -1,0 +1,30 @@
+.page-footer {
+  padding: 15px 0 30px;
+  border-top: 1px solid rgba(0, 77, 64, 0.1);
+  background-image: linear-gradient(
+    rgb(160, 216, 160, 0.01),
+    rgb(160, 216, 160, 0.6),
+    rgb(160, 216, 160, 0.8)
+  );
+}
+.page-footer .container {
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.page-footer .logo-link {
+  flex-direction: column;
+  gap: 0;
+}
+.page-footer .logo-img {
+  width: 70px;
+}
+.footer-title {
+  margin-bottom: 5px;
+  font-size: 1.3em;
+}
+.footer-address-tel {
+  font-size: 1.7em;
+  font-weight: 700;
+  color: #004d40;
+}
