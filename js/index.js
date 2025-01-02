@@ -3,8 +3,9 @@ const modalEl = document.querySelector(".js-modal");
 const modalCloseBtnEl = modalEl.querySelector(".js-modal-close-btn");
 
 const mobMenuOpenBtnEl = document.querySelector(".js-open-mob-menu-btn");
-
 const mobMenuEl = document.querySelector(".js-mob-menu");
+const mobMenuLinksElArr = mobMenuEl.querySelectorAll(".js-mob-menu-link");
+console.log("mobMenuLinksElArr:", mobMenuLinksElArr);
 const mobMenuCloseBtnEl = document.querySelector(".js-close-mob-menu-btn");
 
 const formEl = modalEl.querySelector(".js-modal-form");
@@ -28,6 +29,9 @@ const toggleMobMenu = () => {
   mobMenuEl.classList.toggle("visually-hidden");
   mobMenuEl.classList.toggle("is-open");
 };
+mobMenuLinksElArr.forEach((link) => {
+  link.addEventListener("click", toggleMobMenu);
+});
 
 const sendForm = (obj) => console.log(obj);
 
