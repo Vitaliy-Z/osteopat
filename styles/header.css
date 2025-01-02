@@ -65,7 +65,7 @@
 .mob-menu-container {
   width: 0;
   height: 100%;
-  position: absolute;
+  position: fixed;
   top: 0%;
   right: 0;
   z-index: 100;
