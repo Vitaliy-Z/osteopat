@@ -25,6 +25,7 @@ const toggleModal = () => {
 };
 
 const toggleMobMenu = () => {
+  mobMenuEl.classList.toggle("visually-hidden");
   mobMenuEl.classList.toggle("is-open");
 };
 
