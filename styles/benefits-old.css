@@ -1,12 +1,16 @@
 .benefits-list {
+  padding: 20px;
   display: flex;
-  flex-direction: column;
-  gap: 20px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 50px;
 }
-
+.benefits-item {
+  width: calc((100% - 50px) / 2);
+}
 .benefits-img-tumb {
-  margin-bottom: 10px;
-  height: 100px;
+  margin-bottom: 20px;
+  height: 200px;
   border: 1px solid #004d40;
   border-radius: 20px;
   background-color: var(--card-bg-color);
@@ -25,10 +29,9 @@
 }
 .benefits-item-title {
   text-align: center;
-  margin-bottom: 2px;
-  font-size: 16px;
+  margin-bottom: 5px;
+  font-size: 1.4em;
   font-weight: 700;
-  text-decoration: underline;
 }
 .benefits-item-text {
   text-indent: 1em;

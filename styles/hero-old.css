@@ -1,5 +1,7 @@
 .hero-section {
-  padding: 30px 0 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-image: linear-gradient(
       rgb(160, 216, 160, 0.7),
       rgb(160, 216, 160, 0.4),
@@ -10,24 +12,30 @@
   background-repeat: no-repeat;
   background-position: bottom right;
   background-size: cover;
+  height: 570px;
 }
-
+.hero-section .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  transform: translateY(-60px);
+}
 .hero-text-wrapper {
-  margin-bottom: 40px;
+  max-width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
 }
 .hero-title {
-  font-size: 28px;
-  margin-bottom: 10px;
+  font-size: 3em;
 }
 .hero-text {
-  font-size: 20px;
+  font-size: 2.5em;
   font-style: italic;
 }
 .appointment-btn {
-  display: block;
-  margin: 0 auto;
-  padding: 10px 20px;
-  font-size: 1em;
+  padding: 12px 30px;
+  font-size: 1.4em;
   letter-spacing: 0.1em;
   color: #fff;
   font-weight: bold;
