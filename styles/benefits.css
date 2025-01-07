@@ -4,7 +4,6 @@
   flex-direction: column;
   gap: 20px;
 }
-
 .benefits-img-tumb {
   margin-bottom: 10px;
   height: 100px;
@@ -53,3 +52,25 @@
   }
 }
 /* ===== / TABLET ===== */
+
+/* ===== DESCTOP ===== */
+@media screen and (min-width: 1024px) {
+  .benefits-list {
+    gap: 1.7em;
+  }
+  .benefits-item {
+    width: calc((100% - 1.7em * 3) / 4);
+  }
+  .benefits-img-tumb {
+    margin-bottom: 1em;
+    height: 12em;
+  }
+  .benefits-item-title {
+    margin-bottom: 0.5em;
+    font-size: 1.4em;
+  }
+  .benefits-item-text {
+    font-size: 1.13em;
+  }
+}
+/* ===== / DESCTOP ===== */

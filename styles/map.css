@@ -16,3 +16,12 @@
   }
 }
 /* ===== / TABLET ===== */
+
+/* ===== DESCTOP ===== */
+@media screen and (min-width: 1024px) {
+  .map-google-link {
+    width: 85em;
+    height: 40em;
+  }
+}
+/* ===== / DESCTOP ===== */

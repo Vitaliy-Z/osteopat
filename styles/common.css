@@ -65,11 +65,31 @@ section:last-child {
   }
   .container {
     max-width: 768px;
-    margin: 0 auto;
-    padding: 0 10px;
   }
   .section-title {
     margin-bottom: 20px;
   }
 }
 /* ===== / TABLET ===== */
+
+/* ===== DESCTOP ===== */
+@media screen and (min-width: 1024px) {
+  body {
+    font-size: 1vw;
+  }
+  section {
+    padding: 1.5em 0;
+  }
+  section:last-child {
+    padding-bottom: 3em;
+  }
+  .container {
+    max-width: 90vw;
+    padding: 0 0.8em;
+  }
+  .section-title {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+  }
+}
+/* ===== / DESCTOP ===== */

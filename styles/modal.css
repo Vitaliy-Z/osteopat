@@ -93,3 +93,47 @@
   }
 }
 /* ===== / TABLET ===== */
+
+/* ===== DESCTOP ===== */
+@media screen and (min-width: 1024px) {
+  .modal-content {
+    max-width: 100%;
+    width: 43em;
+    padding: 2em 2.4em 2.5em 1.5em;
+  }
+  .modal-close-btn {
+    top: 0.8em;
+    right: 0.8em;
+    padding: 0.5em;
+  }
+  .modal-close-icon {
+    width: 1.1em;
+    height: 1.1em;
+  }
+  .modal-title {
+    margin-bottom: 0.7em;
+    font-size: 2.3em;
+  }
+  .modal-form {
+    gap: 1em;
+  }
+  .modal-label {
+    width: 5em;
+    font-size: 1.3em;
+  }
+  .modal-input {
+    width: 85%;
+    padding: 0.25em 1em;
+    font-size: 1.4em;
+  }
+  .modal-text {
+    margin: 1em 0;
+    font-size: 0.9em;
+    text-indent: 1.5em;
+  }
+  .modal-submit-btn {
+    padding: 0.45em 2em;
+    font-size: 1.7em;
+  }
+}
+/* ===== / DESCTOP ===== */

@@ -7,3 +7,11 @@
   margin-top: 15px;
 }
 /* ===== / MOBIlE ===== */
+
+/* ===== DESCTOP ===== */
+@media screen and (min-width: 1024px) {
+  .about-section .section-text {
+    font-size: 1.5em;
+  }
+}
+/* ===== / DESCTOP ===== */

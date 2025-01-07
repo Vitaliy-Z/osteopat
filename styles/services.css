@@ -32,3 +32,22 @@
   }
 }
 /* ===== / TABLET ===== */
+
+/* ===== DESCTOP ===== */
+@media screen and (min-width: 1024px) {
+  .services-list {
+    gap: 2em 3em;
+  }
+  .services-item {
+    padding: 1.5em 0;
+    width: calc((100% - 3em * 2) / 3);
+  }
+  .service-icon {
+    height: 9em;
+  }
+  .services-item-text {
+    margin-top: 0.5em;
+    font-size: 2em;
+  }
+}
+/* ===== / DESCTOP ===== */

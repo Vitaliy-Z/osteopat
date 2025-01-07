@@ -105,3 +105,26 @@
   }
 }
 /* ===== / TABLET ===== */
+
+/* ===== DESCTOP ===== */
+@media screen and (min-width: 1024px) {
+  .page-header {
+    padding: 0.5em 0;
+  }
+  .logo-link {
+    gap: 0.5em;
+  }
+  .logo-img {
+    width: 4em;
+  }
+  .logo-text {
+    font-size: 1em;
+  }
+  .nav-link-list {
+    gap: 1em;
+  }
+  .nav-link {
+    font-size: 1.3em;
+  }
+}
+/* ===== / DESCTOP ===== */
