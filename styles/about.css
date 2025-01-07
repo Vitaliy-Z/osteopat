@@ -1,3 +1,4 @@
+/* ===== MOBIlE ===== */
 .about-section .section-text {
   text-indent: 2em;
   font-style: italic;
@@ -5,3 +6,4 @@
 .about-section .section-text:last-child {
   margin-top: 15px;
 }
+/* ===== / MOBIlE ===== */

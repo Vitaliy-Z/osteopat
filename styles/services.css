@@ -1,3 +1,4 @@
+/* ===== MOBIlE ===== */
 .services-list {
   display: flex;
   flex-direction: column;
@@ -20,3 +21,14 @@
   margin-top: 5px;
   font-size: 1.2em;
 }
+/* ===== / MOBIlE ===== */
+
+/* ===== TABLET ===== */
+@media screen and (min-width: 768px) {
+  .services-list {
+    flex-direction: row;
+    justify-content: space-around;
+    row-gap: 30px;
+  }
+}
+/* ===== / TABLET ===== */

@@ -1,3 +1,4 @@
+/* ===== MOBIlE ===== */
 .page-footer {
   padding: 15px 0 30px;
   border-top: 1px solid rgba(0, 77, 64, 0.1);
@@ -10,7 +11,7 @@
 .page-footer .container {
   display: flex;
   justify-content: space-between;
-  gap: 30px;
+  gap: 25px;
 }
 .page-footer .logo-link {
   flex-direction: column;
@@ -29,10 +30,23 @@
 }
 .footer-title {
   margin-bottom: 5px;
-  font-size: 16px;
+  font-size: 1.2em;
+}
+.footer-text {
+  font-size: 0.9em;
 }
 .footer-address-tel {
   font-size: 20px;
   font-weight: 700;
   color: #004d40;
 }
+/* ===== / MOBIlE ===== */
+
+/* ===== TABLET ===== */
+@media screen and (min-width: 768px) {
+  .footer-info {
+    flex-direction: row;
+    column-gap: 80px;
+  }
+}
+/* ===== / TABLET ===== */

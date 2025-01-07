@@ -1,3 +1,4 @@
+/* ===== MOBIlE ===== */
 .page-header {
   padding: 5px 0;
   background-image: linear-gradient(
@@ -29,25 +30,12 @@
 
 .nav-link-list {
   display: none;
-  /* gap: 20px; */
 }
 .nav-link {
   display: block;
   padding: 10px;
   font-size: 1.5em;
 }
-
-/* .nav-link { 
-  font-size: 1em;
-  
-  transition: color var(--timing-duraction) var(--btn-bg-hover-color),
-    transform var(--timing-duraction) var(--btn-bg-hover-color);
-}
-.nav-link:hover,
-.nav-link:focus {
-  transform: scale(1.1);
-  color: var(--btn-text-hover-color);
- } */
 
 .mob-menu-btn {
   display: flex;
@@ -101,3 +89,19 @@
   align-items: center;
   gap: 15px;
 }
+/* ===== / MOBIlE ===== */
+
+/* ===== TABLET ===== */
+@media screen and (min-width: 768px) {
+  .mob-menu-btn {
+    display: none;
+  }
+  .nav-link-list {
+    display: flex;
+    gap: 10px;
+  }
+  .nav-link {
+    font-size: 1.05em;
+  }
+}
+/* ===== / TABLET ===== */

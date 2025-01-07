@@ -1,3 +1,4 @@
+/* ===== MOBIlE ===== */
 .map-google-link {
   display: block;
   width: 100%;
@@ -5,3 +6,13 @@
   outline: 1px solid #004d40;
   border-radius: 10px;
 }
+/* ===== / MOBIlE ===== */
+
+/* ===== TABLET ===== */
+@media screen and (min-width: 768px) {
+  .map-google-link {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+/* ===== / TABLET ===== */

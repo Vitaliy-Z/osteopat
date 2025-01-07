@@ -1,10 +1,11 @@
+/* ===== MOBIlE ===== */
 html {
   scroll-behavior: smooth;
 }
 body {
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
-  line-height: 1.45;
+  line-height: 1.5;
   color: #404040;
 }
 .page-main {
@@ -31,7 +32,7 @@ section:last-child {
 .section-title {
   margin-bottom: 20px;
   text-align: center;
-  font-size: 23px;
+  font-size: 24px;
   color: #212121;
 }
 .section-text {
@@ -49,3 +50,26 @@ section:last-child {
   clip-path: inset(50%);
   margin: -1px;
 }
+/* ===== / MOBIlE ===== */
+
+/* ===== TABLET ===== */
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+  section {
+    padding: 15px 0;
+  }
+  section:last-child {
+    padding-bottom: 30px;
+  }
+  .container {
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+  .section-title {
+    margin-bottom: 20px;
+  }
+}
+/* ===== / TABLET ===== */
